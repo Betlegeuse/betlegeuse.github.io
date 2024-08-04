@@ -34,6 +34,9 @@ myImage.onclick = function () {
   document.querySelector("h2").onclick = function () {
     alert("Я же говорю: нет никакого смысла кликать куда ни попадя");
   };
+  document.querySelector("p").onclick = function () {
+    alert("Я же говорю: нет никакого смысла кликать куда ни попадя");
+  };
   if (!localStorage.getItem("name")) {
     setUserName();
   } else {
